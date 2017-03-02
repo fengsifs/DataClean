@@ -1,0 +1,24 @@
+<div style="margin: 20px;">
+    <div class="well well-small" style="width: 90%">
+        <p style="font-size: 16px;">
+          函数依赖(FD)是两种属性之间的约束关系。它是由左侧和右侧组成。它意味着左侧值相同的元组的右侧值也应当相同。函数依赖的语法规则如下
+        </p>
+        <p class="text-center">
+            <a href="#" class="btn btn-info disabled">Column A</a>
+            <a href="#" class="btn btn-info disabled">Column B...</a>
+            <a href="#" class="btn btn-warning disabled">|</a>
+            <a href="#" class="btn btn-info disabled">Column C</a>
+            <a href="#" class="btn btn-info disabled">Column D...</a>
+        </p>
+        <p style="font-size: 16px;">
+            举例来说，规则 <span class="label label-info">zipcode | city, state</span>
+            表明具有相同 zipcode 属性的元组也应当具有相同的 city 和 state 属性。
+        </p>
+    </div>
+
+    <input type="text"
+           data-provide="typeahead"
+           style="width: 90%; font-size: 18px; padding: 10px;"
+           id="value"
+           value="<%= code %>">
+</div>

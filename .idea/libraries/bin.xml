@@ -1,0 +1,56 @@
+<component name="libraryTable">
+  <library name="bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/bin/derbyrun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-http-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/org.ow2.sat4j.maxsat-2.3.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/commons-cli-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/simmetrics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/nadeef-web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/libthrift-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/annotations-12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/antlr-runtime-3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/httpcore-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-util-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-io-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/org.ow2.sat4j.maxsat-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-servlet-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/nadeef.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/httpclient-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/spark-core-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/slf4j-log4j12-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/nadeef-service.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/org.ow2.sat4j.pb-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/commons-pool-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/guava-15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/derbynet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/stringtemplate-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/gurobi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-server-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-security-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/spark-core-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/org.ow2.sat4j.core-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/javax.servlet-3.0.0.v201112011016.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jline-2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-xml-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/postgresql-9.1-901.jdbc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/org.ow2.sat4j.core-2.3.4-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/jetty-webapp-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/mysql-connector-java-5.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/bin/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<div style="margin: 20px;">
+    <div class="well well-small" style="width: 90%">
+        <p style="font-size: 16px;">
+		拒绝约束(DCs)是定义在一个或多个关系上的一个或多个元组之间的规则。语法需要连接谓词，每个谓词有两个原子(元组属性变量或常量)和一个操作符(=、!=、<、>)：拒绝约束的语法规则如下
+        </p>
+        <p class="text-center">
+            <a href="#" class="btn btn-primary disabled">not(</a>
+            <a href="#" class="btn btn-info disabled">t1.Column A</a>
+            <a href="#" class="btn btn-info disabled">></a>
+            <a href="#" class="btn btn-info disabled">t2.Column B</a>
+            <a href="#" class="btn btn-primary disabled">&</a>
+            <a href="#" class="btn btn-info disabled">t1.Column C</a>
+            <a href="#" class="btn btn-info disabled">=</a>
+            <a href="#" class="btn btn-info disabled">constant</a>
+            <a href="#" class="btn btn-primary disabled">)</a>
+        </p>
+        <p style="font-size: 16px;">
+            举例来说，规则 <span class="label label-info">not(t1.C=t2.C&t1.A!=t2.A)</span>
+            说明不应该有两个元组属性C上有相同的值，但属性A的值不同。  </p>
+    </div>
+
+    <input type="text"
+           data-provide="typeahead"
+           style="width: 90%; font-size: 18px; padding: 10px;"
+           id="value"
+           value="<%= code %>">
+</div>

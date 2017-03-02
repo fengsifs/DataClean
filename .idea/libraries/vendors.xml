@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="vendors">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vendors/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-servlet-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jline-2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/org.ow2.sat4j.maxsat-2.3.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/org.ow2.sat4j.maxsat-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-webapp-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/org.ow2.sat4j.pb-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/spark-core-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/stringtemplate-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/simmetrics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/mysql-connector-java-5.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/annotations-12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/httpcore-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/libthrift-0.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/commons-pool-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/gurobi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/guava-15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/derbynet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/derbyrun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/javax.servlet-3.0.0.v201112011016.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/httpclient-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/org.ow2.sat4j.core-2.3.4-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-http-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-io-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-util-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/slf4j-log4j12-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/antlr-runtime-3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/org.ow2.sat4j.core-2.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/commons-cli-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-xml-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/postgresql-9.1-901.jdbc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/spark-core-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-server-9.0.2.v20130417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendors/jetty-security-9.0.2.v20130417.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
