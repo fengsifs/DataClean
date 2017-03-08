@@ -13,6 +13,7 @@
 
 package qa.qcri.nadeef.web;
 
+import qa.qcri.nadeef.service.NadeefService;
 import qa.qcri.nadeef.tools.CommonTools;
 import qa.qcri.nadeef.tools.Logger;
 
@@ -59,6 +60,8 @@ public final class NadeefStart {
                 System.out.println("FAILED");
                 System.exit(1);
             }
+
+            new NadeefService();
 
             logger.info("OK");
 
