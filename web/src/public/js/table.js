@@ -55,11 +55,6 @@ define(["requester", "state"], function (Requester, State) {
                         "ajaxDataProp": 'data',
                         "columnDefs" : columnDefs,
                         "language": {
-                            "lengthMenu": "每页 _MENU_ 条记录",
-                            "zeroRecords": "没有找到记录",
-                            "info": "第 _PAGE_ 页 ( 总共 _PAGES_ 页 )",
-                            "infoEmpty": "无记录",
-                            "infoFiltered": "(从 _MAX_ 条记录过滤)",
                             "oAria": {
                                 "sSortAscending": ": 升序排列",
                                 "sSortDescending": ": 降序排列"
@@ -125,7 +120,33 @@ define(["requester", "state"], function (Requester, State) {
                         "destroy": true,
                         "columns": columns,
                         "columnDefs" : columnDefs,
-                        "ajaxDataProp": 'data'
+                        "ajaxDataProp": 'data',
+                        "language": {
+                            "oAria": {
+                                "sSortAscending": ": 升序排列",
+                                "sSortDescending": ": 降序排列"
+                            },
+                            "oPaginate": {
+                                "sFirst": "首页",
+                                "sLast": "末页",
+                                "sNext": "下页",
+                                "sPrevious": "上页"
+                            },
+                            "sEmptyTable": "没有相关记录",
+                            "sInfo": "第 _START_ 到 _END_ 条记录，共 _TOTAL_ 条",
+                            "sInfoEmpty": "第 0 到 0 条记录，共 0 条",
+                            "sInfoFiltered": "(从 _MAX_ 条记录中检索)",
+                            "sInfoPostFix": "",
+                            "sDecimal": "",
+                            "sThousands": ",",
+                            "sLengthMenu": "每页显示条数: _MENU_",
+                            "sLoadingRecords": "正在载入...",
+                            "sProcessing": "正在载入...",
+                            "sSearch": "搜索:",
+                            "sSearchPlaceholder": "",
+                            "sUrl": "",
+                            "sZeroRecords": "没有相关记录"
+                        }
                     });
                 }
             });
@@ -240,7 +261,33 @@ define(["requester", "state"], function (Requester, State) {
                     "columnDefs" : columnDefs,
                     "search": { "search" : search },
                     "ajaxDataProp": 'data',
-                    "lengthMenu": _.isUndefined(length) ? [10, 25, 50] : length
+                    "lengthMenu": _.isUndefined(length) ? [10, 25, 50] : length,
+                    "language": {
+                        "oAria": {
+                            "sSortAscending": ": 升序排列",
+                            "sSortDescending": ": 降序排列"
+                        },
+                        "oPaginate": {
+                            "sFirst": "首页",
+                            "sLast": "末页",
+                            "sNext": "下页",
+                            "sPrevious": "上页"
+                        },
+                        "sEmptyTable": "没有相关记录",
+                        "sInfo": "第 _START_ 到 _END_ 条记录，共 _TOTAL_ 条",
+                        "sInfoEmpty": "第 0 到 0 条记录，共 0 条",
+                        "sInfoFiltered": "(从 _MAX_ 条记录中检索)",
+                        "sInfoPostFix": "",
+                        "sDecimal": "",
+                        "sThousands": ",",
+                        "sLengthMenu": "每页显示条数: _MENU_",
+                        "sLoadingRecords": "正在载入...",
+                        "sProcessing": "正在载入...",
+                        "sSearch": "搜索:",
+                        "sSearchPlaceholder": "",
+                        "sUrl": "",
+                        "sZeroRecords": "没有相关记录"
+                    }
                 });
 
                 instance.tableName = tableName;
