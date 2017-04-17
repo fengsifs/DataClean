@@ -7,16 +7,19 @@
 <div class="tab-content">
     <div class="tab-pane in active">
         <div class="control-group">
-        <button class="btn btn-primary" id="new-source" data-toggle="modal">
-                导入新数据</button>
-        </div>
-        <div class="control-group">
-            <select id="selected_source" class="selectbox fullwidth" size="5">
+            <label class="control-label" for="selected_source">选择数据</label>
+            <div class="controls">
+            <select id="selected_source">
                 <% _.each(sources, function(source) { %>
                 <!-- TODO: to improve the magic number -->
                 <option value="<%= source %>"><%= source.substr(3) %></option>
                 <% }); %>
             </select>
+            </div>
+        </div>
+        <div class="control-group">
+            <button class="btn btn-block" id="new-source" data-toggle="modal">
+                导入新数据</button>
         </div>
     </div>
 </div>
