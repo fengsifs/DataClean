@@ -421,7 +421,7 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
                     .showValues(true)
                     .valueFormat(d3.format('d'));
 
-                chart.xAxis.axisLabel("按元组冲突排名");
+                chart.showXAxis(false);
                 chart.yAxis
                     .tickFormat(d3.format('d'))
                     .axisLabelDistance(50)
@@ -440,6 +440,7 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
                     .attr("x", container.width() / 2 - 100)
                     .attr("y", container.height() - 20)
                     .style("weight", "bold")
+                    .text("按元组冲突排名");
 
                 nv.utils.windowResize(chart.update);
 

@@ -227,16 +227,16 @@ define(["requester", "state"], function (Requester, State) {
                         }
 
                         // create event for click filter
-                        cells.on("click", function () {
-                            var vid = this.getAttribute("data");
-                            if (violationInstance1 != null) {
-                                violationInstance1.search(":=" + vid).draw();
-                            }
-
-                            if (violationInstance2 != null) {
-                                violationInstance2.search(":=" + vid).draw();
-                            }
-                        });
+                        // cells.on("click", function () {
+                        //     var vid = this.getAttribute("data");
+                        //     if (violationInstance1 != null) {
+                        //         violationInstance1.search(":=" + vid).draw();
+                        //     }
+                        //
+                        //     if (violationInstance2 != null) {
+                        //         violationInstance2.search(":=" + vid).draw();
+                        //     }
+                        // });
 
                         // truncate large text
                         for (i = 0; i < data.length; i ++) {
