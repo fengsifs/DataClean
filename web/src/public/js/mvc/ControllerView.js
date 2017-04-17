@@ -286,6 +286,7 @@ define([
         var selectedRule =
             _.filter(ruleList, function (x) { return x[3] === source || x[4] === source; });
         var selectedHtml = _.template(
+            "<option>==选择规则==</option>" +
             "<% _.each(rules, function(rule) { %>" +
             "<option value='<%= rule[0] %>'><%= rule[0] %></option>" +
             "<% }); %>", { rules : selectedRule });

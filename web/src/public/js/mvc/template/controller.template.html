@@ -7,9 +7,10 @@
 <div class="tab-content">
     <div class="tab-pane in active">
         <div class="control-group">
-            <label class="control-label" for="selected_source">选择数据</label>
+            <label class="control-label" for="selected_source"></label>
             <div class="controls">
-            <select id="selected_source">
+            <select id="selected_source" class="fullwidth">
+                <option>==选择数据==</option>
                 <% _.each(sources, function(source) { %>
                 <!-- TODO: to improve the magic number -->
                 <option value="<%= source %>"><%= source.substr(3) %></option>

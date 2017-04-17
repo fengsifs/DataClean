@@ -67,7 +67,6 @@ public class WidgetAction {
         Logger tracer = Logger.getLogger(WidgetAction.class);
         get("/:project/widget/attribute", (request, response) -> {
             response.type("application/json");
-            String filter = request.queryParams("filter");
             String project = request.params("project");
 
             if (Strings.isNullOrEmpty(project))
@@ -76,7 +75,7 @@ public class WidgetAction {
             String sql =
                 String.format(
                     "select attribute, count(*) from %s group by attribute",
-                    getSubquery(filter));
+                        "VIOLATION");
             return SQLUtil.query(project, sql, true);
         });
 

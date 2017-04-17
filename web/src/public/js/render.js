@@ -414,19 +414,18 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
 
             nv.addGraph(function () {
                 var chart = nv.models.discreteBarChart()
-                    .x(function (d) { return "TID: " + d.label; })
+                    .x(function (d) { return "tid:" + d.label; })
                     .y(function (d) { return d.value; })
                     .staggerLabels(false)
                     .tooltips(true)
-                    .showValues(false)
+                    .showValues(true)
                     .valueFormat(d3.format('d'));
 
+                chart.xAxis.axisLabel("按元组冲突排名");
                 chart.yAxis
                     .tickFormat(d3.format('d'))
                     .axisLabelDistance(50)
                     .axisLabel("涉及的冲突数");
-
-                chart.showXAxis(false);
 
                 var container = $("#" + id);
                 d3.select("#" + id + " svg")
@@ -441,7 +440,6 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
                     .attr("x", container.width() / 2 - 100)
                     .attr("y", container.height() - 20)
                     .style("weight", "bold")
-                    .text("按元组冲突排名");
 
                 nv.utils.windowResize(chart.update);
 
