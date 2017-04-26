@@ -24,7 +24,10 @@ require.config({
         "nvd3" : "lib/nv.d3.min",
         "ace" : "lib/ace-min/ace",
         "jquery.filedrop" : "lib/jquery.filedrop",
-        "blockUI" : "lib/jquery.blockUI"
+        "blockUI" : "lib/jquery.blockUI",
+        "html2canvas" : "lib/html2canvas.min",
+        "canvg" : "lib/canvg.min",
+        "jspdf" : "lib/jspdf.min"
     },
 
     shim: {
@@ -40,7 +43,19 @@ require.config({
         'nvd3'      : ['d3'],
         'blockUI'   : ['jquery'],
         'bootstrap' : ['jquery'],
-        "datatables-bootstrap" : ['jquery', 'datatables']
+        "datatables-bootstrap" : ['jquery', 'datatables'],
+        "html2canvas" : {
+            deps : ['jquery'],
+            exports: 'html2canvas'
+        },
+        "canvg" : {
+            deps : ['jquery'],
+            exports: 'canvg'
+        },
+        "jspdf" : {
+            deps : ['jquery'],
+            exports: 'jspdf'
+        }
     }
 });
 

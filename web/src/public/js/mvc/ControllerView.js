@@ -1,6 +1,6 @@
 /*
  * QCRI, NADEEF LICENSE
- * NADEEF is an extensible, generalized and easy-to-deploy data cleaning platform built at QCRI.
+ * NgfADEEF is an extensible, generalized and easy-to-deploy data cleaning platform built at QCRI.
  * NADEEF means "Clean" in Arabic
  *
  * Copyright (c) 2011-2013, Qatar Foundation for Education, Science and Community Development (on
@@ -21,6 +21,7 @@ define([
     'mvc/RuleEditorView',
     'mvc/ProgressbarView',
     'mvc/SourceEditorView',
+    'mvc/EvaluationReportView',
     'text!mvc/template/controller.template.html',
     'text!mvc/template/detail.template.html'
 ], function (
@@ -33,6 +34,7 @@ define([
     RuleEditorView,
     ProgressBarView,
     SourceEditorView,
+    EvaluationReportView,
     ControllerTemplate,
     DetailTemplate) {
     "use strict";
@@ -122,6 +124,10 @@ define([
 
                 $('#new-source').on('click', function () {
                     $('#source-editor').modal('show');
+                });
+
+                $('#quality').on('click', function () {
+                    $('#evaluation-report').modal('show');
                 });
 
                 $('#btn-discover').on('click', function () {
@@ -234,6 +240,10 @@ define([
 
                 if ($("#source-editor").length === 0) {
                     SourceEditorView.start('source-editor-modal');
+                }
+
+                if ($("#evaluation-report").length === 0) {
+                    EvaluationReportView.start('evaluation-report-modal');
                 }
             }
         });
