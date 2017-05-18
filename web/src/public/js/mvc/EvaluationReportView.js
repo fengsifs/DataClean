@@ -4,16 +4,21 @@
 
 define([
     'state',
+    "render",
     'html2canvas',
     'canvg',
     'jspdf',
     "mvc/EvaluationReportView",
     'text!mvc/template/evaluationreport.template.html'
-], function (State, html2canvas, canvg, jspdf, EvaluationReport, EvaluationReportTemplate) {
+], function (State, Renderer, html2canvas, canvg, jspdf, EvaluationReport, EvaluationReportTemplate) {
     "use strict";
     function start(id) {
         var html = _.template(EvaluationReportTemplate)();
         $('#' + id).html(html);
+        Renderer.drawOverview("report-overview");
+        // Renderer.drawAttribute("report-attribute");
+        // Renderer.drawDistribution("report-distribution");
+        // Renderer.drawTupleRank("report-tupleRank");
         $("#generate-pdf").click(function () {
             $(".modal-body svg").each(function (index, node) {
                 var parentNode = node.parentNode;

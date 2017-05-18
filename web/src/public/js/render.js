@@ -38,7 +38,7 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
                 var pollutedPerc = 100 - cleanPerc;
 
                 values = [
-                    {"label": "干净元组 " + cleanPerc + "%    ", "value" : clean},
+                    {"label": "干净元组 " + cleanPerc + "%", "value" : clean},
                     {"label": "脏元组 " + pollutedPerc + "%", "value" : polluted}
                 ];
             }
@@ -357,7 +357,7 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
 
             var distributionData = [
                 {
-                    key: '涉及元组   ',
+                    key: '涉及元组',
                     color: '#d62728',
                     values: affectedTuple
                 },
@@ -456,6 +456,6 @@ define(['table', 'requester', 'nvd3'], function (Table, Requester) {
         drawOverview : drawOverview,
         drawAttribute : drawAttribute,
         drawDistribution : drawDistribution,
-        drawTupleRank : drawTupleRank,
+        drawTupleRank : drawTupleRank
     };
 });

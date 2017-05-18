@@ -21,13 +21,14 @@ require.config({
         "bootstrap" : "lib/bootstrap.min",
         "datatables" : "lib/jquery.dataTables.min", // has to be this name
         "d3" : "lib/d3.min",
-        "nvd3" : "lib/nv.d3.min",
+        "nvd3" : "lib/nv.d3",
         "ace" : "lib/ace-min/ace",
         "jquery.filedrop" : "lib/jquery.filedrop",
         "blockUI" : "lib/jquery.blockUI",
         "html2canvas" : "lib/html2canvas.min",
         "canvg" : "lib/canvg.min",
         "jspdf" : "lib/jspdf.min"
+        // "Chart" : "lib/Chart"
     },
 
     shim: {
@@ -56,6 +57,10 @@ require.config({
             deps : ['jquery'],
             exports: 'jspdf'
         }
+        // "Chart" : {
+        //     deps : ['jquery'],
+        //     exports: 'Chart'
+        // }
     }
 });
 

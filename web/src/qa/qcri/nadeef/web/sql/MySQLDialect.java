@@ -54,7 +54,10 @@ public class MySQLDialect extends SQLDialectBase {
      */
     @Override
     public String installProject() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        STGroupFile template = Preconditions.checkNotNull(getTemplate());
+        ST instance = template.getInstanceOf("InstallProject");
+        instance.add("name", "project");
+        return instance.render();  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     /**
