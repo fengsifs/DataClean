@@ -2,5 +2,4 @@ nadeefdb/
 out/
 bin/
 **/.idea/workspace.xml
-**/nadeef.conf
 logs

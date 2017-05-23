@@ -141,6 +141,7 @@ public class MySQLDialect extends SQLDialectBase {
 
     @Override
     public String hasDatabase(String databaseName) {
-        return null;
+        return "SELECT 1 FROM information_schema.SCHEMATA where SCHEMA_NAME='"
+                + databaseName + "'";
     }
 }

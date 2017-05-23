@@ -211,6 +211,10 @@ public abstract class SQLDialectBase {
         return st.render();
     }
 
+    public static void main(String[] args) {
+
+    }
+
     /**
      * Copy table.
      * @param conn connection.
